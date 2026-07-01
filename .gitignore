@@ -1,6 +1,32 @@
-.terraform/
+# Terraform
+**/.terraform/*
 *.tfstate
 *.tfstate.*
+crash.log
+crash.*.log
+
+# Terraform variable files (may contain secrets)
 *.tfvars
 *.tfvars.json
-crash.log
+
+# Terraform override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform plan files
+*.tfplan
+
+# CLI configuration
+.terraformrc
+terraform.rc
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# IntelliJ
+.idea/
