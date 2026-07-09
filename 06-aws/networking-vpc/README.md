@@ -1,1 +1,0 @@
-This code is in charge of creating a EC2 with all the components such as VPC, Subnet, Security Groups, IG.
