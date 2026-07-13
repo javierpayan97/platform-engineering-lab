@@ -179,8 +179,8 @@ resource "aws_db_instance" "db_instance" {
     allocated_storage = 20
     storage_type = "standard"
     engine = "postgres"
-    engine_version = "12.5"
-    instance_class = "db.t2.micro"
+    engine_version = "18.3"
+    instance_class = "db.t4g.micro"
     db_name = "mydb"
     username = "foo"
     password = "foobarbaz"
