@@ -2,6 +2,9 @@ provider "aws" {
     region = "us-east-1"
 }
 
+locals {
+  extra_tag = "extra-tag"
+}
 #ubuntu instance
 resource "aws_instance" "free_tier_ec2" {
     ami = "ami-0b6d9d3d33ba97d99"
